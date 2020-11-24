@@ -1,2 +1,2 @@
 ### Đồ án web tĩnh
-[Link] (toantruong.surge.sh)
+[Link](http://toantruong.surge.sh)
