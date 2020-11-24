@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shoes</title>
+
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/cart.css">
+</head>
+
+<body>
+    <header>
+        <div class="header_container">
+            <div class="header_logo">
+                <a href="../"><img src="../img/logo.png"></a>
+            </div>
+            <div class="header_menu">
+                <ul>
+                    <li><a href="../">Home</a></li>
+                    <li><a href="../product/">Product</a></li>
+                    <li><a href="../news/">News</a></li>
+                    <li><a href="../contact/">Contact</a></li>
+                </ul>
+            </div>
+            <div class="header_search">
+                <div id="search">
+                    <input type="text" placeholder="Search Product...">
+                    <i class="fa fa-search" aria-hidden="true"></i>
+                </div>
+                <a href="./"><i class="fa fa-shopping-cart buy_icon"></i></a>
+            </div>
+        </div>
+    </header>
+    <hr>
+    <main>
+        <div class="section_spacing"></div>
+
+        <div class="container">
+            <table class="table table-hover">
+                <thead>
+                    <tr>
+                        <th scope="col">ALL PRODUCTS</th>
+                        <th scope="col">PRICE</th>
+                        <th scope="col">QUANTITY</th>
+                        <th scope="col">TOTAL</th>
+                    </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <p id="total" class="navbar-right">Total:</p>
+            </div>
+            <div class="row">
+                <button id="checkout" type="button" class="btn btn-lg btn-success navbar-right">CHECKOUT</button>
+            </div>
+        </div>
+        
+    </main>
+    <div class="section_spacing"></div>
+    <div class="section_spacing"></div>
+   
+
+    <script src="../js/cart.js"></script>
+
+</body>

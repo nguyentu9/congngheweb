@@ -1,0 +1,102 @@
+.product_image img{
+    border-radius: 10% 30% 50% 70%;
+} 
+
+.product_detail {
+    background-color: #dddddd26;
+    border-radius: 30px;
+}
+.name_item 
+{
+    font-weight: bold;
+}
+
+.btn_cart {
+    padding: 15px 35px;
+    border-radius: 30px;
+    border: 5px solid #DDD;
+    margin: 20px 10px 10px 20px;
+    font-weight: bold;
+}
+
+.btn-circle {
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 50%;
+    margin-top: 5px;
+    transition: 0.3s;
+}
+.btn-circle:hover {
+    background-color: #449D44;
+    color:white;
+}
+
+/* 
+    Điều chỉnh lại css cho phù hợp
+    Lý do: bị lệch khung viền sản phẩm
+*/
+.container_item {
+    height: 346px;
+    width: 260px;
+}
+.containers .image_item {
+    width: 240px;
+}
+.container_item .overlay {
+    height: 79%;
+}
+/* ----------------------------- */
+
+
+/* Thêm ảnh vào */
+
+.image1 {
+    background-image: url('../img/Nite_Jogger_Pride_Shoes_White.jpg');
+}
+.image2 {
+    background-image: url('../img/Nite_Jogger_Shoes_Black.jpg');
+}
+.image3 {
+    background-image: url('../img/Nizza_Shoes_Black.jpg');
+}
+.image4 {
+    background-image: url('../img/NMD_R1_Pride_Shoes.jpg');
+}
+.image5 {
+    background-image: url('../img/NMD_R1_SHOES.jpg');
+}
+.image6 {
+    background-image: url('../img/NMD_R1_Shoes_Black.jpg');
+}
+.image7 {
+    background-image: url('../img/NMD_R1_Shoes_Grey.jpg');
+}
+.image8 {
+    background-image: url('../img/Stan_Smith_Shoes.jpg');
+}
+.image9 {
+    background-image: url('../img/Stan_Smith_Shoes_White.jpg');
+}
+.image10 {
+    background-image: url('../img/Superstan_Shoes_White.jpg');
+}
+.image11 {
+    background-image: url('../img/Superstar_Shoes_White_FV2819.jpg');
+}
+.image12 {
+    background-image: url('../img/Swift_Run_X_Shoes_Black.jpg');
+}
+.image13 {
+    background-image: url('../img/Swift_Run_X_Shoes_Blue.jpg');
+}
+.image14 {
+    background-image: url('../img/Continental_80_Shoes.jpg');
+}
+
+img.item {
+    height: 500px;
+    width: 500px
+}

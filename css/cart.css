@@ -1,0 +1,36 @@
+table {
+    font-size: 17px;
+    font-weight: bold;
+}
+
+thead {
+    background-color: #000000bf;
+    color: white;
+}
+
+img {
+    width: 140px; 
+    height: 140px;
+    margin-right: 10px;
+}
+
+#checkout {
+    padding: 15px 40px;
+    border-radius: 50px;
+}
+#total {
+    font-size: 40px;
+    font-weight: bold;
+    margin-right: 30px;
+}
+
+.add, .sub {
+    font-size: 20px;
+    margin: 0 10px;
+    transition: 0.4s;
+}
+
+.add:hover, .sub:hover {
+    background-color: #2AC37D;
+}
+
